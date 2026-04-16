@@ -3,7 +3,7 @@
   --color-bg: #f8f5e7;
 
   /* Header background color */
-  --color-head-bg: #c7f2ff;
+  --color-head-bg: #ffd7ef;
 
   /* Logotype */
   --color-logotype-bg: #ffd7ef;
@@ -47,7 +47,7 @@
   --color-card-bg: #ffd7ef;
   --color-card-bg-inverted: #ffd7ef;
   --color-cta-card-bg: #ffffff;
-  --color-cta-card-bg-inverted: #c0bfb9;
+  --color-cta-card-bg-inverted: #f8f5e7;
 
   /* Fonts & font weights*/
   --font-family-sans: ui-sans-serif;
@@ -57,5 +57,5 @@
   --font-weight-light: 200;
 
   /* Infographics background colors*/
-  --color-info-bg: #d5d4d4;
+  --color-info-bg: #f8f5e7;
 }
