@@ -56,8 +56,7 @@ footer ul {
 /* LAYOUT FOR SECTIONS */
 
 @media (width > 600px) {
-  #instruction > main,
-  #register > main {
+  #instruction > main {
     grid-template-columns: 5fr 3fr;
     grid-template-rows: auto auto 1fr auto;
   }

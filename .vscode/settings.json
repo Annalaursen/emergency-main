@@ -1,6 +1,10 @@
 {
   "github.copilot.enable": {
-    "*": false
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "javascript": false
   },
   "git.branchProtection": ["main", "master"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -11,7 +15,7 @@
   "chat.disableAIFeatures": false,
   "chat.agent.enabled": false,
   "editor.inlineSuggest.enabled": false,
-  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
   "liveServer.settings.file": "404.html",
   "prettier.printWidth": 80
 }

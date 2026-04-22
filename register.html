@@ -10,20 +10,23 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/burger.css">
   <link rel="stylesheet" href="css/cards.css">
-  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/forms.css">
   <link rel="icon" type="image/png" href="img/fav.png">
   <title>Emergency Site</title>
 </head>
+
+
+
 
 <body id="register">
   <header>
     <nav>
       <div id="logotype-wrapper" class="logo">
-        <a href="index.html"> LOGO-TYPE </a>
+        <a href="index.html"> Fødselsdagsalarm.dk </a>
       </div>
       <ul class="menu">
-        <li><a class="menuItem" href="instruction.html">Nærkontakt</a></li>
-        <li><a class="menuItem" href="register.html">Indberet</a></li>
+        <li><a class="menuItem" href="instruction.html">Hjælp!</a></li>
+        <li><a class="menuItem" href="register.html">Planlæg</a></li>
       </ul>
       <button class="burger">
         <span class="line"></span>
@@ -33,22 +36,146 @@
     </nav>
   </header>
 
+
+
+
   <main>
-    <h1>INDBERET</h1>
+    <h1>Planlæg en fødselsdag</h1>
+    <h2>Vi hjælper dig med gæster, mad og plan - hurtigt og nemt.</h2>
     <section id="form-section">
       <article id="form-info">
-        <h2>Overskrift</h2>
-        <p>Tekst</p>
-      </article>
-      <form id="webform"></form>
-    </section>
-    <section id="form-summary">
-      <h2>Summary</h2>
-      <article>
-        <p class="placeholder">Opsummering</p>
+
+
+
+        <form class="birthday-form">
+          <fieldset>
+            <legend>Hvem skal festen holdes for?</legend>
+
+            <label><input type="radio" name="person" value="mig-selv"> Mig selv</label>
+            <label><input type="radio" name="person" value="ven"> En ven</label>
+            <label><input type="radio" name="person" value="familiemedlem"> Et familiemedlem</label>
+            <label><input type="radio" name="person" value="barn"> Et barn</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Budget</legend>
+            <div class="slider-group">
+              <input id="slider" type="range" value="3000" min="0" max="10000" />
+              <output for="slider" id="slider-value">3000</output>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Hvad hedder fødselaren?</legend>
+            <input type="text" placeholder="fx. Emma">
+          </fieldset>
+
+          <fieldset>
+            <legend>Særlige ønsker</legend>
+            <textarea placeholder="Fx. allergener, tema..."></textarea>
+          </fieldset>
+
+          <fieldset>
+            <legend>Hvor gammel bliver fødselaren?</legend>
+            <input type="range" min="1" max="100" value="18">
+          </fieldset>
+
+          <fieldset>
+            <legend>Hvad skal der serveres?</legend>
+
+            <label><input type="checkbox" value="fastfood"> Fastfood</label>
+            <label><input type="checkbox" value="snacks"> Snacks</label>
+            <label><input type="checkbox" value="grill"> Grillmad</label>
+            <label><input type="checkbox" value="brunch"> Brunch</label>
+            <label><input type="checkbox" value="buffet"> Buffet</label>
+            <label><input type="checkbox" value="hjaelp"> Hjælp mig</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Hvilken type fest skal holdes?</legend>
+
+            <label><input type="radio" name="festtype" value="casual"> Casual fest</label>
+            <label><input type="radio" name="festtype" value="stor"> Stor fest</label>
+            <label><input type="radio" name="festtype" value="surprise"> Surprise fest</label>
+            <label><input type="radio" name="festtype" value="tema"> Tema fest</label>
+            <label><input type="radio" name="festtype" value="nem"> Den nemme løsning</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Hvor mange gæster?</legend>
+            <select id="gæster-select">
+              <option value="">--Vælg antal--</option>
+              <option value="nummer">1</option>
+              <option value="nummer">2</option>
+              <option value="nummer">3</option>
+              <option value="nummer">4</option>
+              <option value="nummer">5</option>
+              <option value="nummer">6</option>
+              <option value="nummer">7</option>
+              <option value="nummer">8</option>
+              <option value="nummer">9</option>
+              <option value="nummer">10</option>
+              <option value="nummer">11</option>
+              <option value="nummer">12</option>
+              <option value="nummer">13</option>
+              <option value="nummer">14</option>
+              <option value="nummer">15</option>
+              <option value="nummer">16</option>
+              <option value="nummer">17</option>
+              <option value="nummer">18</option>
+              <option value="nummer">19</option>
+              <option value="nummer">20</option>
+              <option value="nummer">21</option>
+              <option value="nummer">22</option>
+              <option value="nummer">23</option>
+              <option value="nummer">24</option>
+              <option value="nummer">25</option>
+              <option value="nummer">26</option>
+              <option value="nummer">27</option>
+              <option value="nummer">28</option>
+              <option value="nummer">29</option>
+              <option value="nummer">30</option>
+              <option value="nummer">31</option>
+              <option value="nummer">32</option>
+              <option value="nummer">33</option>
+              <option value="nummer">34</option>
+              <option value="nummer">35</option>
+              <option value="nummer">36</option>
+              <option value="nummer">37</option>
+              <option value="nummer">38</option>
+              <option value="nummer">39</option>
+              <option value="nummer">40</option>
+              <option value="nummer">41</option>
+              <option value="nummer">42</option>
+              <option value="nummer">43</option>
+              <option value="nummer">44</option>
+              <option value="nummer">45</option>
+              <option value="nummer">46</option>
+              <option value="nummer">47</option>
+              <option value="nummer">48</option>
+              <option value="nummer">49</option>
+              <option value="nummer">50</option>
+              <option value="nummer">50+</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>E-mail</legend>
+            <input type="email" placeholder="din@email.dk">
+          </fieldset>
+
+          <div class="form-button">
+            <button type="submit">Få tilsendt din fødselsdagsplan!</button>
+          </div>
+        </form>
       </article>
     </section>
   </main>
+
+
+
+
+
   <footer>
     <nav>
       <ul>
@@ -71,6 +198,7 @@
       </ul>
     </nav>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -30,3 +30,113 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
+
+main {
+  padding: 2rem;
+  background-color: #f7f1e8;
+  min-height: 100vh;
+}
+
+main h1 {
+  display: inline-block;
+  background-color: #efbcc5;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: var(--font-h1-size);
+  margin-bottom: 2rem;
+}
+
+main h2 {
+  font-size: var(--font-h2-size);
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.birthday-form {
+  max-width: 1000px;
+  background-color: #eee7dd;
+  border-radius: 35px;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2rem 4rem;
+}
+
+.birthday-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.birthday-form legend {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.birthday-form label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.1rem;
+}
+
+.birthday-form input[type="text"],
+.birthday-form input[type="email"],
+.birthday-form select,
+.birthday-form textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid #222;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.birthday-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.birthday-form input[type="range"] {
+  width: 100%;
+}
+
+.slider-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#slider-value {
+  min-width: 50px;
+  font-weight: bold;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  margin-top: 1rem;
+}
+
+.form-button button {
+  background-color: #c88f80;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-button button:hover {
+  opacity: 0.9;
+}
+
+#form-section {
+  grid-template-columns: 1 / 2;
+  grid-template-rows: 2;
+}

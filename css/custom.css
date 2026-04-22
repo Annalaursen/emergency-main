@@ -3,32 +3,32 @@
   --color-bg: #f8f5e7;
 
   /* Header background color */
-  --color-head-bg: #ffd7ef;
+  --color-head-bg: #d4e1f6;
 
   /* Logotype */
-  --color-logotype-bg: #ffd7ef;
+  --color-logotype-bg: #d4e1f6;
   --color-text-logotype: #000000;
   --font-logotype-size: 1rem;
 
   /* Global menu */
-  --color-menu-bg: #ffd7ef;
+  --color-menu-bg: #d4e1f6;
   /* Links */
-  --color-link-bg: #dbffcb;
-  --color-link-hover: #ff61e2;
+  --color-link-bg: #c19385;
+  --color-link-hover: #fdc5f3;
   --color-link-active: #ffffff;
   --border-radius-links: 1px;
 
-  /* Headlines (size)*/
-  --font-h1-size: 1rem;
-  --font-h2-size: 1rem;
+  /* Headlines (size) */
+  --font-h1-size: 2rem;
+  --font-h2-size: 1.5rem;
   --font-h3-size: 1rem;
 
-  --headline2-size: 1rem;
-  --headline3-size: 1rem;
-  --font-sub1-size: 1rem;
+  /* --headline2-size: 3rem;
+  --headline3-size: 2rem;
+  --font-sub1-size: 1rem; */
 
   /* Headlines (color) */
-  --color-headline-bg: #dbffcb;
+  --color-headline-bg: #f8c0c9;
 
   /* Tekst */
   --color-text: #000;
@@ -44,8 +44,8 @@
   --border-radius: 5px;
 
   /* Cards */
-  --color-card-bg: #ffd7ef;
-  --color-card-bg-inverted: #ffd7ef;
+  --color-card-bg: #f8c0c9;
+  --color-card-bg-inverted: #f8c0c9;
   --color-cta-card-bg: #ffffff;
   --color-cta-card-bg-inverted: #f8f5e7;
 
@@ -57,5 +57,5 @@
   --font-weight-light: 200;
 
   /* Infographics background colors*/
-  --color-info-bg: #f8f5e7;
+  --color-info-bg: #f4ede2;
 }
